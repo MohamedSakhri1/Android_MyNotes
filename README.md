@@ -49,7 +49,7 @@ Le `NoteAdapter` hérite de la classe `ArrayAdapter<Note>`. Le cœur de sa logiq
     switch (currentNote.getPriorite()) {
         case "Haute": tvNom.setTextColor(Color.RED); break;
         case "Moyenne": tvNom.setTextColor(Color.rgb(255, 165, 0)); break;
-        case "Basse": tvNom.setTextColor(Color.GREEN); break;
+        case "Basse": tvNom.setTextColor(Color.BLACK); break;
         // ...
     }
     ```
